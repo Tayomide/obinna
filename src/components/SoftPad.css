@@ -1,0 +1,9 @@
+.soft-pad{
+  /* background-color: beige; */
+  background-image: radial-gradient(#111 20%, transparent 20%);
+  background-color: #000;
+  background-position: 100px 100px;
+  background-size: 90px 90px;
+  flex: 1;
+  position: relative;
+}

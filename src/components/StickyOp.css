@@ -1,0 +1,34 @@
+.sticky-op{
+  display: flex;
+  flex-direction: row;
+  height: 2em;
+  width: 100%;
+  background-color: var(--op);
+  border-radius: 7px 7px 0 0;
+}
+
+.bevel ~ .sticky-op{
+  border-radius: 7px;
+}
+
+.sticky-op > .move{
+  flex: 1;
+  height: 100%;
+  width: inherit;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticky-op > .move svg{
+  transform: rotate(90deg);
+}
+
+.sticky-op > button{
+  border-radius: 7px;
+}
+
+.sticky-op > button svg, .sticky-op > div svg{
+  fill: silver;
+}

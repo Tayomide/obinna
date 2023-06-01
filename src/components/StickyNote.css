@@ -1,0 +1,62 @@
+.sticky-note{
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  z-index: var(--z);
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 7px;
+}
+
+.sticky-note.hide{
+  display: none;
+}
+
+.sticky-note .top-bar{
+  height: 2em;
+}
+
+.sticky-note > button{
+  font-size: 1.5em;
+}
+
+.sticky-note textarea{
+  outline: 0;
+  padding: 0.5em 0.4em 0 0.4em;
+  border: 0;
+  background-color: transparent;
+  color: white;
+  resize: none;
+}
+
+.sticky-note textarea.bevel{
+  padding: 0 0.4em
+}
+
+.sticky-note .h{
+  height: 0.4em;
+  background-color: transparent;
+  width: var(--width);
+  position: absolute;
+  cursor: n-resize;
+}
+.sticky-note .v{
+  width: 0.4em;
+  height: var(--height);
+  background-color: transparent;
+  position: absolute;
+  cursor: e-resize;
+}
+
+.sticky-note .n{
+  top: 0
+}
+.sticky-note .s{
+  bottom: 0
+}
+.sticky-note .e{
+  right: 0;
+}
+.sticky-note .w{
+  left: 0
+}

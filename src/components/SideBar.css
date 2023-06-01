@@ -1,0 +1,28 @@
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  width: 19.4em;
+  background: #222;
+  height: 100vh;
+  padding: 0 0.3em;
+}
+
+.side-bar h2 > button{
+  height: 100%;
+  font-size: 1.4em;
+  color: #EFF1F3;
+  padding: 0;
+}
+
+.side-bar h2{
+  padding: 0.15em 0 0.6em 0;
+  color: rgba(255, 255, 255, 0.83);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog-container{
+  overflow: auto;
+}
