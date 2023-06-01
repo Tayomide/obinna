@@ -1,3 +1,9 @@
+# Website link
+(https://toob.netlify.app/)[https://toob.netlify.app/]
+
+# Project creation duration
+3 days with long breaks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
