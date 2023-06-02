@@ -1,5 +1,5 @@
 # Website link
-(https://toob.netlify.app/)[https://toob.netlify.app/]
+[https://toob.netlify.app/](https://toob.netlify.app/)
 
 # Project creation duration
 3 days with long breaks
